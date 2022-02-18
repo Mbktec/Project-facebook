@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    height: 120px;
+    background-color: rgb(59, 98, 148);
+   
+    
+}
+.face{
+    margin-top: 30px;
+    margin-left: 80px;
+    float: left;
+    color: white;
+    font-size: 60px;
+}
+
+a{
+    margin-left: 4px;
+    text-decoration: none;
+}
+ .a1{
+    margin-right: 4px;
+}
+
+.gauche{
+    font-size: 20px;
+    display: flex;
+    color:white;
+    float: right;
+    margin-top: 40px;
+   
+    
+  
+    
+}
+.item1{
+    margin-left: 20px;
+    
+
+   
+}
+.item2{
+    background-color: rgb(37, 111, 207);
+    color:white;
+    font-size: 15px;
+    margin-top: 27px;
+    margin-right: 80px;
+    width: 70px;
+    border: 0.1px solid rgb(2, 0, 0);
+    border-radius: 3px;
+    margin-left: 10px;
+    
+}
+.password{
+    margin-top: px;
+}
+.contenu{
+    height: 400px;
+    background-color: rgba(131, 131, 129, 0.356);
+    display: flex;
+   
+}
+.icon4{
+  
+    width: 15px;
+    cursor: pointer;
+}
+.menug{
+    margin-top: 20px;
+    margin-left: 80px;
+    width: 50%;
+}
+.inr{
+    height: 22px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.menud{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.menud1{
+    margin-left: 2px;
+    margin-top: 10px;
+}
+.image{
+    margin-right: 8px;
+    margin-top: 40px;
+    width: 25px;
+}
+.inl{
+    width: 288px;
+    height: 22px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.sexe{
+    
+    margin-top: 10px;
+}
+.sexe input{
+    margin-left: 5px;
+}
+.fin{
+    margin-top: 10px;
+    border: 1px solid  rgba(175, 175, 113, 0.356);
+
+}
+small{
+    font-size: 12px;
+}
+.psin{
+    background-color: rgb(52, 187, 25);
+    width: 110px;
+    height: 30px;
+   border: 0px;
+   border-radius: 5px;
+}
+@media  screen and (max-width: 944px) {
+    header{
+        height: 120px;
+        
+    }
+    .face{
+        font-size: 30px;
+        color:white;
+      
+      
+    }
+    .gauche{
+        display:flex;
+        flex-direction: column;
+        font-size: 15px;
+        color:white;
+        margin-top: 4px;
+       
+        
+      
+        
+    }
+    .item1 input{
+        width: 100px;
+    }
+    .contenu{
+    display: block;
+    height: 805px;
+  
+    }
+    
+}
